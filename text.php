@@ -1,4 +1,5 @@
 <?php
+echo "anything n";
 $cl = ucfirst("accountService");
 		$daoClass = $cl."Dao";
 		BaseDao::includeOnceTarget("app/".$daoClass);
